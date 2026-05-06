@@ -1,3 +1,4 @@
+
 # 🎮 Socket-Guess-Game-Java
 ### (Number Guessing Game with Server-Client Socket Communication)
 
@@ -63,7 +64,7 @@ This project is a practical implementation of **socket programming** in Java. It
 ## Tech Stack
 
 | Layer | Technology |
-|-------|------------|
+|:-------|:-----------|
 | **Language** | Java |
 | **Networking** | `java.net.ServerSocket`, `java.net.Socket` |
 | **I/O** | `java.io.PrintWriter`, `java.io.BufferedReader`, `java.util.Scanner` |
@@ -81,31 +82,37 @@ This project is a practical implementation of **socket programming** in Java. It
 ### Steps
 
 **1. Clone the repository:**
+
 ```bash
 git clone https://github.com/halukcansarioz/Socket-Guess-Game-Java.git
 ```
 
 **2. Navigate to the project directory:**
+
 ```bash
 cd Socket-Guess-Game-Java
 ```
 
 **3. Compile both files:**
+
 ```bash
 javac Server.java Client.java
 ```
 
 **4. Start the server (in one terminal):**
+
 ```bash
 java Server
 ```
 
 **5. Start the client (in another terminal):**
+
 ```bash
 java Client
 ```
 
 **6. Play the game:**
+
 Follow the prompts in the client terminal to enter your guesses (1–10).
 
 > ⚠️ **Note:** The server must be started before the client. Both programs run on `localhost` (port `7985`).
@@ -113,6 +120,7 @@ Follow the prompts in the client terminal to enter your guesses (1–10).
 ---
 
 ## Project Structure
+
 ```text
 Socket-Guess-Game-Java/
 ├── Server.java           # Server-side game logic
@@ -124,6 +132,7 @@ Socket-Guess-Game-Java/
 ---
 
 ## Contributing
+
 Contributions, bug reports, and feature requests are welcome!
 
 1. **Fork** this repository.
@@ -136,7 +145,9 @@ Contributions, bug reports, and feature requests are welcome!
 
 <a name="contact"></a>
 ## Contact
+
 **Haluk Can Sarıöz**
+
 - GitHub: [@halukcansarioz](https://github.com/halukcansarioz)
 - Email: [halukcansarioz19@gmail.com](mailto:halukcansarioz19@gmail.com)
 - LinkedIn: [Haluk Can Sarıöz](https://www.linkedin.com/in/halukcansarioz)
@@ -148,4 +159,5 @@ Contributions, bug reports, and feature requests are welcome!
 ---
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
