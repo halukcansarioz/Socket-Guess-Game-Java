@@ -22,6 +22,8 @@ A simple number guessing game built in Java using client/server socket communica
 
 ---
 
+
+
 ## About the Project
 
 This project is a practical implementation of **socket programming** in Java. It demonstrates how a server and a client can communicate over a network using TCP sockets, with the server hosting a number guessing game and the client interacting with it remotely.
